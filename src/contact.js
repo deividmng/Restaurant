@@ -12,12 +12,12 @@ export function contact() {
     pageContent.appendChild(heading);
 
     // Crear y añadir un elemento de imagen
-    const topImage = document.createElement('img');
-    topImage.classList.add('top-image');
-    topImage.src = '../assets/img/pexels-malidate-van-784633.jpg';
-    topImage.alt = 'Image of restaurant';
-    topImage.height = '300';
-    pageContent.appendChild(topImage);
+    // const topImage = document.createElement('img');
+    // topImage.classList.add('top-image');
+    // topImage.src = '../assets/img/pexels-malidate-van-784633.jpg';
+    // topImage.alt = 'Image of restaurant';
+    // topImage.height = '300';
+    // pageContent.appendChild(topImage);
 
     // Crear y añadir párrafos
     const para1 = document.createElement('p');
