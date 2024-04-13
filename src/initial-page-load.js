@@ -1,6 +1,7 @@
 export function initialPageLoad() {
     const contentDiv = document.querySelector('#content');
-    contentDiv.innerHTML = '';
+    // contentDiv.innerHTML = '';
+    // contentDiv.replaceChild();
     // Crear un contenedor de página
     const pageContent = document.createElement('div');
     // pageContent.classList.add('page-content');
