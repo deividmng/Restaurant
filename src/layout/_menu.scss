@@ -1,0 +1,30 @@
+@import "../../src/layout/variables";
+
+.menuContent {
+  padding: 30px 200px; /* 30px arriba, 0px derecha, 0px abajo, 200px izquierda */
+  justify-content: center;
+  background-color: $background-color-opacidad;
+  border-top: 10px solid $border-top;
+}
+
+.name-price {
+  display: flex;
+  justify-content: space-between; /* Ajustar a space-between para el espaciado horizontal */
+  color: white;
+}
+
+.heading {
+  align-items: center;
+  text-align: center;
+  color: black;
+  background-color: $background-color-heading;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.items {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+
+  gap: 60px;
+}
