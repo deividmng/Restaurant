@@ -2,6 +2,7 @@ import { initialPageLoad } from './initial-page-load.js';
 import { menu } from './menu.js';
 import { contact } from './contact.js'; 
 
+
 // Inicializar la página con el contenido inicial
 initialPageLoad();
 
